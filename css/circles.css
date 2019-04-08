@@ -1,0 +1,25 @@
+﻿body, html
+{
+    height: 80%;
+    margin:0;
+
+}
+canvas{
+    width:100%;
+    background: black;
+}
+.container{
+    background-image: url('images/test2.png');
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    }

@@ -1,0 +1,121 @@
+
+  /*
+  body {
+    display: table;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background:linear-gradient(-318deg, rgb(60, 57, 63) 50%, rgb(49, 74, 95) 50%);
+
+  }
+  .navbar-expend-lg{
+
+      background-color: rgba(0, 0, 0, 0.26);
+
+  }
+  .cont{
+    width: calc(50% - 50px);
+    height: 100%;
+  }
+  .upper,.lower {
+
+    display: table-row;
+    height: 50%;
+    
+  }
+  .upper{
+    background: url(../images/Database.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .upper{
+  
+    background-image:linear-gradient(90deg,url(../images/Database.png) 50%, green 50%);
+
+  }
+  .upper{
+  
+    background-image:linear-gradient(333deg, 50%, green 50%);
+
+  }
+ 
+  .lower {
+    background-image: url(../images/cyber2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+*/
+
+body{
+ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #444;
+   height: auto;
+   width: 100%;
+    background-image: url(../images/test3.png);
+    background-repeat: no-repeat;
+    background-position: relative;
+    background-size: cover;
+
+}
+h2{
+    text-shadow: 2px 3px #313080;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 3rem;
+}
+.skewbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   
+    transform: translate(-50%,-50%);
+    height: 400px;
+    width: 1200px;
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(3, 53, 190, 0.8);
+    display: flex;
+    background:linear-gradient(23deg,darkgrey 50%, lightgray 50%);
+
+
+}
+.content{
+    width: calc(50% - 50px);
+    height: 100%;
+    background-color: lightgray;
+    padding: 3% 5%;
+    line-height: 1.5em;
+    font-size: 18px;
+    text-align: justify;
+    background:linear-gradient(-200deg,darkgrey 50%, lightgray 50%);
+
+
+}
+.imagebox{
+width: calc(50% + 50px);
+height: 100%;
+background-color: #ff0;
+border-left: 100px solid lightgray;
+border-bottom: 400px solid rgba(175, 168, 168, 0.3);
+background-position: -150px 0px;
+background:linear-gradient(-300deg,darkgrey 50%, lightgray 50%);
+
+
+}
+.text-muted{
+    position: fixed;
+    bottom: 0;
+    left: 20%;
+}
+
+#footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  }

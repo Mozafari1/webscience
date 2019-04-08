@@ -1,0 +1,246 @@
+body {
+   
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    /*background:linear-gradient(-287deg, rgb(73, 42, 69) 50%, rgb(49, 74, 95) 50%);*/
+    background: linear-gradient(rgba(0,12,50,0.34), rgba(0,12,50,0.34)), url(../images/natur.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color:black;
+
+  }
+  .navbar-expend-lg{
+
+    background-color: rgba(0, 0, 0, 0.26);
+
+}
+
+.col-sm-4{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    grid-template-rows: auto;
+    grid-gap: 0 30px;
+
+}
+.image{
+    height: 200px;   
+    align-items: center;
+    width: 90%;
+margin-left: 5%;
+    background-color: white;
+    box-shadow: 0 10px 30px rgb(252, 5, 5);
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    border-radius: 3px;
+}
+.image:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    opacity: 1;
+    filter: alpha(opacity=100);
+    border-radius: 3px;
+    
+  }
+.col-sm-4 .card-mt-4{
+    position: relative;
+    background: #0a2453;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 1px solid #000;
+
+}
+.col-sm-4 .card-mt-4::before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    transform: skew(4deg,4deg);
+    z-index: -1;
+
+
+}
+.col-sm-4 .card-mt-4:nth-child(1)::before{
+    background: linear-gradient(315deg,#ff0057,#e64a19);
+}
+
+.col-sm-4 .card-mt-4::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 80%;
+    background: rgba(255, 255, 255, 0.05);
+}
+#cardbody{
+    position: relative;
+    padding: 20px;
+    transform: translateY(30px);
+}
+#cardbody h4{
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    margin: 0;
+    font-size: 2.1em;
+    color: rgba(255, 255,   255, 0.07);
+    transition: 0.5s;
+
+}
+.card-mt-4:hover #cardbody h4{
+    top: -90px;
+}
+/* .card-mt-4 #cardbody h3{
+    margin: 0 0 10px;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+} */
+.card-mt-4 #cardbody p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+}
+.card-mt-4 #cardbody a{
+    position: relative;
+    margin: 20px 0 0;
+    padding: 2px 4px;
+    text-decoration: none;
+    border: 0.1px solid#fff;
+    display: inline-block;
+    color: #fff;
+    transition: 0.5s;
+    transform: translateY(-30px);
+    opacity: 0;
+    visibility: hidden;
+}
+.card-mt-4:hover #cardbody a{
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+.card-mt-4 #cardbody a:hover{
+    color: #000;
+    background: #1591a1;
+}
+
+
+
+/* Sign up design*/
+
+.col-sm-4 #Card{
+    position: relative;
+    background: #192257;
+    display: flex;
+    justify-content: center;
+ 
+    margin-top: 14px;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+.col-sm-4 #Card::before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    transform: skew(4deg,4deg);
+    z-index: -1;
+
+
+}
+
+.col-sm-4 #Card:nth-child(2)::before{
+    background: linear-gradient(315deg,#1506f3,#5906f5);
+}
+
+
+/* Category */
+
+
+.col-sm-4 #card-c{
+    position: relative;
+    background: rgba(187, 190, 223, 0.5);
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 14px;
+    border: 1px solid rgb(229, 237, 238);
+   
+}
+.col-sm-4 #card-c::before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    transform: skew(4deg,4deg);
+    z-index: -1;
+
+
+}
+
+.col-sm-4 #card-c:nth-child(3)::before{
+    background: linear-gradient(315deg,#03f89a,#e3fc01);
+}
+
+
+.col-sm-4 .card{
+    position: relative;
+    background: rgba(187, 190, 223, 0.5);
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 14px;
+    border: 1px solid rgb(255, 253, 253);
+    margin-bottom: 14px;
+   
+}
+.col-sm-4 .card::before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    transform: skew(4deg,4deg);
+    z-index: -1;
+
+
+}
+
+.col-sm-4 .card:nth-child(4)::before{
+    background: linear-gradient(315deg,#0703f3,#f105aa);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

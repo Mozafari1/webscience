@@ -1,0 +1,126 @@
+
+
+body {
+  background: linear-gradient(rgba(0,12,50,0.34), rgba(0,12,50,0.34)), url(../images/natur.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+
+}
+
+#cont{
+  width: 500px;
+  margin: 50px auto 50px;
+  background-color: rgb(14, 11, 11);
+  padding: 0 10px 10px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+  -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+  background: rgba(27, 27, 27, 0.25);
+
+}
+#cont:hover .avatar-flip {
+  transform: rotateY(230deg);
+  -webkit-transform: rotateY(180deg);
+}
+#cont:hover .avatar-flip img:first-child {
+  opacity: 0;
+}
+#cont:hover .avatar-flip img:last-child {
+  opacity: 1;
+}
+.avatar-flip {
+  border-radius: 100px;
+  overflow: hidden;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  margin: auto;
+  top: -70px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 0 3px #f0f0f0;
+  -webkit-box-shadow: 0 0 0 3px #f0f0f0;
+  -moz-box-shadow: 0 0 0 3px #f0f0f0;
+}
+.avatar-flip img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+}
+.avatar-flip img:first-child {
+  z-index: 1;
+}
+.avatar-flip img:last-child {
+  z-index: 0;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  opacity: 0;
+}
+h3 {
+  text-align: center;
+  margin-top: -34px;
+  font-family: fantasy;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 3px;
+  color: azure;
+}
+small {
+padding-left: 15px;
+  font-size: 14px;
+  color: #d6e8e9;
+  letter-spacing: 2px;
+  margin-bottom: 3px;
+}
+p {
+  text-align: justify;
+padding-left: 5px;
+padding-right: 5px;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 20px;
+  color:white;
+}
+
+#but {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 6px;
+    color: white;
+    background-color: #00baff;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    text-decoration: none;
+
+  }
+  
+ a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    text-align: center;
+
+  }
+
+   #but:hover, a:hover {
+    opacity: 0.7;
+    color: white;
+  } 
+  #footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    }

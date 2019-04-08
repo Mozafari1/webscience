@@ -1,0 +1,134 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background: #34495e;
+    background-image: url(../images/test3.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+
+}
+.box{
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.box h3{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+a{
+    color: white;
+    font-weight: 40;
+}
+.box input[type="text"], .box input[type="email"], .box input[type="password"],.box input[type="checkbox"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+
+}
+.box input[type="text"]:focus,.box input[type="email"]:focus, .box input[type="password"]:focus{
+    width: 320px;
+    border-color: #2ecc71;
+
+
+}
+.box input[type="checkbox"]:hover{
+background: blue;
+}
+.box input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.box input[type="submit"]:hover{
+    background: green;
+}
+
+.card{
+    background:rgba(0, 0, 0, 0.25);
+}
+.card-header{
+    opacity: 0.88%;
+    filter: alpha(opecity=80);
+}
+
+.card-body{
+  opacity: 0.80;
+  filter: alpha(opacity=70);
+  background:linear-gradient(90deg,#545b5f 50%, #5e7774 50%);
+  
+  border-radius: 5px;
+  display: inline;
+  
+}
+.transparent{
+opacity: 0.7;
+filter: alpha(opecity=70);
+color: lightcyan;
+}
+.transparent:hover{
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+.col-lg-9{
+    color: aliceblue;
+}
+.navbar-expend-lg{
+    background: rgba(0, 0, 0, 0.57);
+
+}
+.navbar-expend-lg{
+    border-bottom-right-radius: 30%;
+    border-bottom-color: #2ecc71;
+}
+
+.top{
+    background-image: url(../images/1_s6QGl0s9_ZgmotvHVtUVoQ.png);
+    background-repeat: no-repeat;
+}
+.bottom{
+    height: 50;
+}
+.split{
+    background:linear-gradient(90deg, rgb(117, 126, 113) 50%, rgb(49, 74, 95) 50%);
+
+}
+
+
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    }

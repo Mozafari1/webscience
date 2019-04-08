@@ -1,0 +1,262 @@
+html{
+    font-size: 62.5%;
+    max-width: 100%;
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    max-width: 100%;
+    font-size: 1.4rem;
+    
+}
+.btn-success{
+ 
+
+    margin: -10rem;
+float: right;
+    font-size: 2rem;
+    margin-right: -22rem;
+    color: white;
+    background-color: darkblue;
+}
+
+.container__item{
+    margin: 0 auto 0;
+}
+.landing-page-container{
+    width: 100%;
+    min-height: 100%;
+    height: 100vh;
+    background-image: url(images/test2.png);
+    background-position: bottom;
+    background-repeat: 3s repeat-y;
+    background-size: cover;
+    overflow: hidden;
+    display: table;
+    font-family: 'Courier New', Courier, monospace;
+    color: greenyellow;
+
+}
+
+.content-wrapper{
+    max-width: 1200px;
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.coords{
+    font-size: 1rem;
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: 40%;
+    letter-spacing: .2rem;
+    left: -11.5rem;
+    margin: 0;
+    transform: rotate(-90deg) translateY(50%);
+}
+.CPP{
+
+font-size: 3rem;
+display: inline-block;
+float: left;
+}
+
+.copys{
+    font-size: 1rem;
+    display: inline-block;
+    float: right;
+    position: relative;
+    color: white;
+    letter-spacing: .2rem;
+    right: -1.5rem;
+    margin: 0;
+}
+
+.ellipse-container{
+    width: 50rem;
+    height: 50rem;
+    border-radius: 50%;
+    margin:0 auto;
+    position: relative;
+    top: 7rem;
+}
+
+.ellipse-container .greeting{
+    position: relative;
+    top: 20rem;
+    left: .5rem;
+    right: 0;
+    margin: 0 auto;
+    text-transform: uppercase;
+    letter-spacing: 1.3rem;
+    font-size: 3rem;
+    font-weight: 400;
+    color: yellow;
+    opacity: .5;
+}
+.ellipse-container.greeting:after{
+    content: '';
+    width: .3rem;
+    height: .3rem;
+    border-radius: 50%;
+    display: inline-block;
+    background-color:blue;
+    position: relative;
+    top: -0.65rem;
+    left: -5.05rem;
+
+}
+
+
+
+.ellipse-container .btn-primary{
+    position: relative;
+    top: 20rem;
+    left: 15.5rem;
+    right: 0;
+    margin: 0 auto;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-size: 2rem;
+    font-weight: 400;
+    opacity: .5;
+    background-color:darkred;
+}
+.ellipse-container.btn-primary:after{
+    content: '';
+    width: .3rem;
+    height: .3rem;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: -0.65rem;
+    right: 0;
+    
+
+}
+
+
+.ellipse{
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    border-style: solid;
+}
+.ellipse__outer--thin{
+    width: 100%;
+    height: 100%;
+    border-width: -1px;
+    border-color: rgb(9, 56, 62,.1);
+    animation: ellipseOrbit 15s ease-in-out infinite;
+
+}
+.ellipse__outer--thin:after{
+    content: '';
+    background-image: url(images/ellipses_dial.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: #000;
+    position: absolute;
+    opacity: .3s;
+}
+.ellipse__outer--thick{
+    width: 99.5%;
+    height: 99.5%;
+    border-color: #09383E transparent;
+    border-width: 2px;
+    transform: rotate(-45deg);
+    animation: ellipseRotate 15s ease-in-out infinite;
+
+}
+.ellipse__orbit{
+    width: 2.5rem;
+    height: 2.5rem;
+    
+    border-width: 2px;
+    border-color: #09383E;
+    top: 5rem;
+    right: 6.75rem;
+  
+}
+
+.lwr{
+    color: fuchsia;
+    width: 99.5%;
+    height: 99.5%;
+    border-color: #09383E transparent;
+    border-width: 2px;
+    transform: rotate(-45deg);
+    animation: lwrRotate 15s ease-in-out infinite;
+    font-size: 2rem;
+
+}
+.lwr2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    width: 80%;
+    height: 80%;
+    border-color: #09383E transparent;
+    border-width: 2px;
+
+    transform: rotate(-45deg);
+    animation: lwrRotate2 15s ease-in-out infinite;
+
+}
+.ellipse__orbit:after{
+content: '';
+width: 0.7rem;
+height: 0.7rem;
+border-radius: 50%;
+display: inline-block;
+background-color: #0C383E;
+margin: 0 auto;
+left: 0;
+right: 0;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+}
+@keyframes ellipseRotate{
+    0%{
+        transform: rotate(-45deg);
+    }
+    100%{
+        transform: rotate(405deg);
+    }
+}
+@keyframes ellipseOrbit{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes lwrRotate{
+    0%{
+        transform: rotate(-50deg);
+    }
+    100%{
+        transform: rotate(1030deg);
+    }
+}
+@keyframes lwrRotate2{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
